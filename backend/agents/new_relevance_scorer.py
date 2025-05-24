@@ -11,9 +11,7 @@ from pinecone import Pinecone, ServerlessSpec
 import uuid
 import hashlib
 
-# ---- Your API Keys ----
-OPENAI_API_KEY = "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"
-PINECONE_API_KEY = "pcsk_hDvzL_4L1KLXUi7z5JjpY5N78dm3wQ2mHca6cayUasVyCNpCGiyfCiPAb2fsFoAXigVtr"
+# ---- Your API Keys ---
 
 # ---- Pinecone Configuration ----
 INDEX_NAME = "legal-documents"  # Change this to use an existing index
